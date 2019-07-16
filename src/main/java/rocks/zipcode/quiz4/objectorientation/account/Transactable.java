@@ -6,5 +6,5 @@ package rocks.zipcode.quiz4.objectorientation.account;
 public interface Transactable {
     void deposit(Double amountToIncreaseBy);
     void withdrawal(Double amountToDecreaseBy);
-    Double getBalance();
+   Double getBalance();
 }
